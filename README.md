@@ -1,2 +1,0 @@
-# QuickMotion-Portofolio
-My website
