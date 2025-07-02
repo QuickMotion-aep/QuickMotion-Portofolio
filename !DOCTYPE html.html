@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>QuickMotion - Video Editing Portfolio</title>
+<style>
+  /* Reset and base */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: #20232a;
+    color: #61dafb;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  header img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  header p {
+    margin-top: 5px;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  section {
+    margin-bottom: 60px;
+  }
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 8px;
+    font-weight: 700;
+  }
+  /* Skills Section */
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  #skills li {
+    background: #61dafb;
+    color: #20232a;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+  }
+  #skills li:hover {
+    background: #21a1f1;
+    cursor: default;
+  }
+  /* Portfolio Section */
+  #portfolio .video-thumb {
+    margin-bottom: 25px;
+  }
+  #portfolio iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+    border: none;
+  }
+  /* Contact Section */
+  #contact p {
+    font-size: 1.1rem;
+  }
+  #contact a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #contact a:hover,
+  #contact a:focus {
+    text-decoration: underline;
+  }
+  footer {
+    background: #20232a;
+    color: #61dafb;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+    header p {
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.postimg.cc/kR22BBS9/QM-Logo.png" alt="QuickMotion logo - QM initials" />
+  <h1>QuickMotion</h1>
+  <p>Expert Video Editor | After Effects & Photoshop Specialist</p>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I am QuickMotion, a highly skilled and professional video editor with extensive expertise in 
+      Adobe After Effects and Photoshop. I bring creativity and precision to every project, delivering 
+      engaging videos that stand out. Whether it's motion graphics, visual effects, or photo editing, I’m here 
+      to help your vision come to life.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>Adobe After Effects</li>
+      <li>Adobe Photoshop</li>
+      <li>Motion Graphics</li>
+      <li>Visual Effects</li>
+      <li>Video Editing</li>
+      <li>Color Grading</li>
+    </ul>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="video-thumb">
+      <iframe src="https://www.youtube.com/embed/your_video_id_1" title="Project 1: Dynamic Intro" allowfullscreen></iframe>
+    </div>
+    <div class="video-thumb">
+      <iframe src="https://www.youtube.com/embed/your_video_id_2" title="Project 2: Visual Effects Demo" allowfullscreen></iframe>
+    </div>
+    <!-- Add more videos or project links here -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>Fiverr: <a href="https://www.fiverr.com/QuickMotion" target="_blank" rel="noopener noreferrer">fiverr.com/QuickMotion</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 QuickMotion. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
